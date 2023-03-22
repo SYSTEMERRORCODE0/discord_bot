@@ -8,7 +8,13 @@
 
 23.03.22 현재 특별히 프로젝트를 하려고 만든 레포가 아니기 때문에
 
-보기만 하고 편집은 못하도록 해놓은 상태입니다.
+보기만 해주시기 바랍니다!!
+
+This Repository is made for who wants entire codes from my blog.
+
+And I don't want to maintain these files for now.
+
+PLEASE READ ONLY!!
 
 # 파일
 

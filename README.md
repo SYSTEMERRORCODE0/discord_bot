@@ -1,2 +1,9 @@
-# discord_bot
-Personal discord bot for just a interest
+# SYSTEM_ERROR_CODE_0's Blog Open Source Archive
+
+블로그하면서 배포 요청이 나온 코드 중에
+
+올려도 괜찮을 것 같은 것만 추려서 올리는 곳입니다.
+
+23.03.22 현재 특별히 프로젝트를 하려고 만든 레포가 아니기 때문에
+
+보기만 하고 편집은 못하도록 해놓은 상태입니다.

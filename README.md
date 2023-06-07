@@ -30,3 +30,4 @@ The codes can be look so dirty, but I'm so lazy.
 
 ChatBot3.5_public.py : gpt-3.5-turbo를 써서 만든 디코봇 코드입니다. API 키들은 개인적으로 넣으셔야 합니다.
 MyBot_public.py : 유튜브를 통해 노래를 틀어주는 디코봇 코드입니다. API 키는 개인적으로 22
++ "ChatLog.txt", "ChatPrompt.txt" 추가 필요. 빈 파일도 가능

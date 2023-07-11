@@ -2,7 +2,7 @@ import openai
 import discord
 from discord.ext import commands
 
-openai.api_key = ""
+openai.api_key = "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"
 bot = commands.Bot(command_prefix=':(',intents=discord.Intents.all())
 
 prompts = []
@@ -167,5 +167,5 @@ async def 로그저장(message):
 
     
 LoadLogs()
-bot.run('')
+bot.run('MTA1Njk0MTQ4OTQxMTg3MDc4MQ.G-9Ug8.MkpDOGkPhAHof72ZiRAo-OUHYLUMoKFJzXA_7c')
     

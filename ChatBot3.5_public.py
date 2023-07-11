@@ -147,7 +147,7 @@ async def 프롬프트저장(message):
     if chatType == "LearningChat":
         f = open("ChatPrompt.txt", "w")
         for prompt in prompts:
-            f.write(f'{role}: {content}\n')
+            f.write(f'{prompt["role"]}: {prompt["content"]}\n')
         f.close()
         await message.channel.send("Prompt를 저장 했습니다")
     else:

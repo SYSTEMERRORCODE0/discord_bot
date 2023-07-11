@@ -2,7 +2,7 @@ import openai
 import discord
 from discord.ext import commands
 
-openai.api_key = "OPENAI API KEY HERE"
+openai.api_key = "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"
 bot = commands.Bot(command_prefix=':(',intents=discord.Intents.all())
 
 prompts = []
@@ -147,7 +147,7 @@ async def 프롬프트저장(message):
     if chatType == "LearningChat":
         f = open("ChatPrompt.txt", "w")
         for prompt in prompts:
-            f.write(f'{role}: {content}\n')
+            f.write(f'{prompt["role"]}: {prompt["content"]}\n')
         f.close()
         await message.channel.send("Prompt를 저장 했습니다")
     else:
@@ -167,5 +167,5 @@ async def 로그저장(message):
 
     
 LoadLogs()
-bot.run('DISCORD API KEY HERE')
+bot.run('MTA1Njk0MTQ4OTQxMTg3MDc4MQ.G-9Ug8.MkpDOGkPhAHof72ZiRAo-OUHYLUMoKFJzXA_7c')
     

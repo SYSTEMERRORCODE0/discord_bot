@@ -26,15 +26,19 @@ def LoadLogs():
             
         keys = []
         values = []
-            
-        keys.append("role")
-        values.append(pair[0])
-        keys.append("content")
-        values.append(pair[1])
-            
-        logs.append(dict(zip(keys, values)))
+
+        try:
+            keys.append("role")
+            values.append(pair[0])
+            keys.append("content")
+            values.append(pair[1])
+
+            logs.append(dict(zip(keys, values)))
+        except:
+            pass
             
     f.close()
+    print("loaded logs")
 
 def LoadPrompts():
     global prompts
@@ -50,13 +54,16 @@ def LoadPrompts():
             
         keys = []
         values = []
-            
-        keys.append("role")
-        values.append(pair[0])
-        keys.append("content")
-        values.append(pair[1])
-            
-        prompts.append(dict(zip(keys, values)))
+
+        try:
+            keys.append("role")
+            values.append(pair[0])
+            keys.append("content")
+            values.append(pair[1])
+                
+            prompts.append(dict(zip(keys, values)))
+        except:
+            pass
             
     f.close()
 
